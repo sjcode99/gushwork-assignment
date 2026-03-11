@@ -1839,6 +1839,7 @@ body {
   .contact-banner-form-card {
     flex: 1;
     width: 100%;
+    padding: 1.5rem 1rem;
   }
   .footer-links-grid {
     grid-template-columns: 1fr 1fr;
@@ -1858,25 +1859,9 @@ body {
     display: none;
   }
 
-  .carousel{
+  .carousel {
     max-height: 330px;
   }
-
-  /* .zoom-preview {
-    position: absolute;
-    top: -50%;
-    right: -22vw;
-    left: 50%;
-    width: 40vw;
-    height: 20vh;
-    border-radius: 16px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    background-repeat: no-repeat;
-    background-color: #fff;
-    z-index: 100;
-    display: none;
-    border: 1px solid #d1d5db;
-} */
 
   .product-section {
     display: flex;
@@ -2058,6 +2043,50 @@ body {
     display: none;
   }
 
+  .resources-subtitle {
+    font-size: 1rem;
+  }
+
+  .resources-subtitle br,
+  .resources-title br {
+    display: none;
+  }
+
+  .resources-section {
+    padding: 3rem 1rem;
+  }
+
+  .resources-list-card {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .resource-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e1e3e8;
+  }
+
+  .resource-item.border-none {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .contact-banner-section {
+    padding: 3rem 1rem;
+  }
+
+  .contact-banner-container {
+    padding: 1.5rem;
+  }
+
+  .contact-banner-title {
+    font-size: 2.5rem;
+  }
+
+
   .footer-links-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
@@ -2065,7 +2094,7 @@ body {
 
   .footer-banner {
     flex-direction: column;
-    padding: 2rem;
+    padding: 2rem 1rem;
     gap: 1.5rem;
   }
 
@@ -2074,15 +2103,27 @@ body {
     font-size: 1.25rem;
   }
 
+  .footer-section{
+    padding: 3rem 1rem;
+  }
+
+  .footer-banner-text br {
+    display: none;
+  }
+
   .sub-footer-container {
     flex-direction: column;
     gap: 1.5rem;
   }
 
+  .sub-footer{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .sub-footer-links {
     position: static;
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   .faq-section {
